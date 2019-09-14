@@ -10,6 +10,7 @@ set blendfile="D:\video editing\Video in progress\test.blend"
 set "namePrefix=name"
 set "extension=.jpg"
 set outputpath="D:\video editing\Video in progress\Render"
+set "sleep=1"
 
 Rem -+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 Rem -+-+-+-+ Define your animation intervals (in this example: render from 2400 to 2550, then render from 2600 to 2750)
@@ -26,7 +27,7 @@ Rem -+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 Rem -+-+-+	CODE -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 Rem -+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
-shutdown -h
+if %sleep%==1 shutdown -h
 goto End
 
 :startBlender

@@ -8,7 +8,7 @@ this very simple script for Windows OS does the following:
 - It checks if the files are really there
 - If they aren't there, then it will restart the rendering process from the first unrendered item
 
-# INSTRUCTION
+# INSTRUCTIONS
 
 TLDR: enter the required variables in the script, run it and the next morning you'll have your render ready!
 
